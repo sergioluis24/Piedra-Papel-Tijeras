@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Fonts */
+body{
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+footer{
+    font-family: 'Gotu', sans-serif;
+}
+.porcent-100{
+height: 50%;
+}
+/* Colores */
+.bg-black{
+    background: #222f3e;
+}
+.fondo{
+    background: url('../img/fondo.jpg') center  no-repeat  fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.piedra{
+    background: url('../img/150px\(señas\)/piedra-slide.png');
+    height: 150px;
+    width: 150px;
+    border: none;
+    border-radius: 50%;
+} 
+.papel{
+    background: url('../img/150px\(señas\)/papel-slide.png');
+    height: 150px;
+    width: 150px;
+    border: none;
+    border-radius: 50%;
+}
+.tijeras{
+    background: url('../img/150px\(señas\)/tijera-slide.png');
+    height: 150px;
+    width: 150px;
+    border: none;
+    border-radius: 50%;
+
+}
+.botones-señas:hover{
+    border: 1px solid white;
+}
+.botones-señas:focus{
+    outline: none;
+    box-shadow: none;
+}
+.boton-respuesta:focus{
+    outline: none;
+    box-shadow: none; 
+}
+/* Responsive web design */
+/* Mobile devices */
+@media (max-width: 575.98px)and (orientation:portrait){
+    .fondo{
+        height: 100%;
+        width: 100%;    
+    }
+    .piedra{
+        background: url('../img/200px\(señas\)/piedra-slide-200.png');
+        height: 200px;
+        width: 200px;
+    }
+    .papel{
+        background: url('../img/200px\(señas\)/papel-slide-200.png');
+        height: 200px;
+        width: 200px;
+    } 
+    .tijeras{
+        background: url('../img/200px\(señas\)/tijera-slide-200.png');
+        height: 200px;
+        width: 200px;
+    }
+    .img_icon{
+        width: 150px;
+        margin: auto;
+    }
+    .respuestas{
+        margin: auto;
+    }
+    .boton-respuesta{
+        margin: auto;
+    }
+ 
+}
+/* Laptos */
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation:landscape){
+    body{
+        height: 100vh;
+    }
+    .fondo{
+        height: 100%;
+    }
+    .piedra{
+        background: url('../img/150px\(señas\)/piedra-slide.png');
+        height: 150px;
+        width: 150px;
+    }
+    .papel{
+        background: url('../img/150px\(señas\)/papel-slide.png');
+        height: 150px;
+        width: 150px;
+    } 
+    .tijeras{
+        background: url('../img/150px\(señas\)/tijera-slide.png');
+        height: 150px;
+        width: 150px;
+    }
+    .opciones{
+        margin: auto;
+    }
+    .img_icon{
+        width:205px ;
+        height: auto;
+
+    }
+    .respuestas{
+        margin: auto;
+    }
+    .boton-respuesta{
+        margin: auto;
+    }
+
+}
+@media only screen   
+and (min-device-width : 768px)   
+and (max-device-width : 1024px){
+    .fondo{
+        height: 100vh;
+    }
+    .piedra{
+        background: url('../img/200px\(señas\)/piedra-slide-200.png');
+        height: 200px;
+        width: 200px;
+    }
+    .papel{
+        background: url('../img/200px\(señas\)/papel-slide-200.png');
+        height: 200px;
+        width: 200px;
+    } 
+    .tijeras{
+        background: url('../img/200px\(señas\)/tijera-slide-200.png');
+        height: 200px;
+        width: 200px;
+    } 
+    hr{
+        padding: .5px;
+    }
+    .opciones{
+        margin: auto;
+    }
+
+}
+
